@@ -3,13 +3,13 @@ var config = {};
 // Configuration of the LWTM2M Server
 //--------------------------------------------------
 config.server = {
-    port: 5684,                         // Port where the server will be listening
-    lifetimeCheckInterval: 1000,        // Minimum interval between lifetime checks in ms
+    port: 5683,                         // Port where the server will be listening
+    lifetimeCheckInterval: 120000,        // Minimum interval between lifetime checks in ms
     udpWindow: 100,
     defaultType: 'Device',
-    logLevel: 'FATAL',
-    ipProtocol: 'udp4',
-    serverProtocol: 'udp4',
+    logLevel: 'DEBUG',
+    ipProtocol: 'udp6',
+    serverProtocol: 'udp6',
     formats: [
         {
             name: 'application-vnd-oma-lwm2m/text',
