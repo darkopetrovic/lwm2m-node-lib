@@ -40,8 +40,8 @@ config.client = {
     observe: {
         period: 3000
     },
-    ipProtocol: 'udp4',
-    serverProtocol: 'udp4',
+    ipProtocol: 'udp6',
+    serverProtocol: 'udp6',
     formats: [
         {
             name: 'lightweightm2m/text',

@@ -1,0 +1,5 @@
+create /3303/0
+create /3316/0
+set /75001/2 0 440.81
+set /75002/2 1 Connected
+connect bbbb::10 5683 ClientTest /
