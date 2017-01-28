@@ -1,5 +1,7 @@
 create /3303/0
 create /3316/0
-set /75001/2 0 440.81
-set /75002/2 1 Connected
-connect bbbb::10 5683 ClientTest /
+set /3303/0 5700 23.5
+set /3303/0 5701 Cel
+
+
+connect localhost 5683 ClientTest /
