@@ -4,7 +4,7 @@ var config = {};
 //--------------------------------------------------
 config.server = {
     port: 5683,                         // Port where the server will be listening
-    lifetimeCheckInterval: 120000,        // Minimum interval between lifetime checks in ms
+    lifetimeCheckInterval: 600000,        // Minimum interval between lifetime checks in ms
     udpWindow: 100,
     defaultType: 'Device',
     logLevel: 'DEBUG',
@@ -34,7 +34,7 @@ config.server = {
 // Configuration of the LWTM2M Client
 //--------------------------------------------------
 config.client = {
-    lifetime: '30',
+    lifetime: '6000',
     version: '1.0',
     logLevel: 'DEBUG',
     observe: {
