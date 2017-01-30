@@ -34,7 +34,9 @@
     "mongoose": "4.4.3",
     "mongoose-auto-increment": "5.0.1",
     "logops": "0.5.0",
-    "underscore": "1.7.0"
+    "underscore": "1.7.0",
+    "deferred": "0.7.5",
+    "lwm2m-id": "latest"
   },
   "devDependencies": {
     "grunt": "0.4.5",
