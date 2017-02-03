@@ -12,7 +12,7 @@ config.server = {
     serverProtocol: 'udp6',
     deviceRegistry: {
         type: 'mongodb',
-        host: 'localhost',
+        host: '153.109.5.127',
         port: '27017',
         db: 'lwm2m'
     },
