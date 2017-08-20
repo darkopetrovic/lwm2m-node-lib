@@ -34,11 +34,11 @@ config.server = {
 // Configuration of the LWTM2M Client
 //--------------------------------------------------
 config.client = {
-    lifetime: '6000',
+    lifetime: '30',
     version: '1.0',
     logLevel: 'DEBUG',
     observe: {
-        period: 3000
+        period: 30000
     },
     ipProtocol: 'udp6',
     serverProtocol: 'udp6',
