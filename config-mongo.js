@@ -12,9 +12,11 @@ config.server = {
     serverProtocol: 'udp6',
     deviceRegistry: {
         type: 'mongodb',
-        host: 'localhost',
-        port: '27017',
-        db: 'lwm2m'
+        user: 'lwm2mserver',
+        password: '123456',
+        host: 'ds111754.mlab.com',
+        port: '11754',
+        db: 'lwm2m_v1'
     },
     formats: [
         {
