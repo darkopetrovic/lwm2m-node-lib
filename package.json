@@ -35,8 +35,11 @@
     "coap": "0.22.0",
     "coap-cli": "0.5.1",
     "command-node": "0.1.1",
+    "debug": "^3.0.0",
+    "deferred": "0.7.5",
     "logops": "2.1.0",
     "mongodb": "3.1.9",
+    "lwm2m-id": "latest",
     "mongoose": "5.3.10",
     "mongoose-plugin-autoinc": "1.1.9",
     "underscore": "1.9.1"
